@@ -157,5 +157,5 @@ If you haven't already, log in to your Heroku account and follow the prompts to 
 ## Check Logs if we got any error
 	heroku logs --tail
 
-###Thanks for Reading...###
+### Thanks for Reading... ###
 # Happy Coading!!! #
