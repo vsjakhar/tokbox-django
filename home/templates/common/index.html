@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="{% static 'css/app.css' %}" rel="stylesheet" type="text/css">
+    <meta name="apiKey" content="{{apiKey}}">
+    <meta name="session" content="{{session}}">
+    <meta name="token" content="{{token}}">
 
     <title>Tokbox with Django</title>
   </head>
@@ -16,9 +19,9 @@
       <h1>Tokbox with Django</h1>
     </header>
     <section class="container">
-      <div id="videos">
-        <div id="subscriber"></div>
-        <div id="publisher"></div>
+      <div class="row" id="videos">
+        <div class="col-md-6" id="subscriber"></div>
+        <div class="col-md-6" id="publisher"></div>
       </div>
     </section>
     <footer class="container"></footer>

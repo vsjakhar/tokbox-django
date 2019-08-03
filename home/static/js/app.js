@@ -1,7 +1,7 @@
 // replace these values with those generated in your TokBox Account
-var apiKey = "YOUR_API_KEY";
-var sessionId = "YOUR_SESSION_ID";
-var token = "YOUR_TOKEN";
+var apiKey = $('meta[name=apiKey]').attr("content");
+var sessionId = $('meta[name=session]').attr("content");
+var token = $('meta[name=token]').attr("content");
 
 // Handling all of our errors here by alerting them
 function handleError(error) {
